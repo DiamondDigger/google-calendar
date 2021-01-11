@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 100%;
+  height: 20vh;
+  background-color: white;
+}
+
+.navbar {
+  width: 100%;
+  height: 10vh;
+  border: 2px solid grey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.side-navbar {
+  width: 100%;
+  height: 20%;
+  border: 2px solid grey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid yellow;
+  height: 100%;
+  width: 50%;
+}
+
+.right-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid green;
+  height: 100%;
+  width: 30%;
+}
+
+.main-section {
+  display: flex;
+}
+
+.side-menu {
+  width: 25%;
+  height: 90vh;
+  border: 2px solid grey;
+}
+
+.top-half {
+  width: 100%;
+  height: 50%;
+  border: 1px solid pink;
+}
+
+.bottom-half {
+  width: 100%;
+  height: 50%;
+  background-color: grey;
+}
+
+.calendar {
+  width: 75%;
+  border: 2px solid red;
+}
+
+.whole-calendar {
+  width: 100%;
+  height: 80%;
+  border: 2px solid yellow;
+}
+
+.side-calendar {
+  width: 100%;
+  height: 80%;
+  border: 2px solid blue;
+}
+
+.week {
+  width: 100%;
+  height: 10%;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  border: 2px solid grey;
+  /* overflow: hidden; */
+}
+
+.side-week {
+  width: 100%;
+  height: 15%;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  border: 2px solid grey;
+  /* overflow: hidden; */
+}
+
+.weekdays {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: pink; */
+  border: 1px solid black;
+}
+
+.side-weekdays {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  font-size: 0.7rem;
+}
+
+.month {
+  width: 100%;
+  height: 90%;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  border: 2px solid red;
+}
+
+.side-month {
+  width: 100%;
+  height: 85%;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  border: 2px solid red;
+}
+
+.day {
+  display: flex;
+  justify-content: center;
+  border: 1px solid grey;
+}
+
+.side-day {
+  display: flex;
+  justify-content: center;
+  border: 1px solid grey;
+  font-size: 0.7rem;
+}
+
+.prev-day {
+  opacity: 50%;
+  background-color: thistle;
+  display: flex;
+  justify-content: center;
+  border: 1px solid grey;
+}
+
+.prev-side-day {
+  opacity: 50%;
+  background-color: thistle;
+  display: flex;
+  justify-content: center;
+  border: 1px solid grey;
+  font-size: 0.7rem;
+}
+
+.current-day {
+  background-color: violet;
+  display: flex;
+  justify-content: center;
+}
+.current-side-day {
+  background-color: violet;
+  display: flex;
+  justify-content: center;
+  font-size: 0.7rem;
+}
+
+@media screen and (max-width: 600px) {
+}
+
+@media screen and (max-width: 400px) {
+}

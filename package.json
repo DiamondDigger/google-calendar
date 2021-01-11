@@ -1,0 +1,15 @@
+{
+  "name": "google-calendar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "/out/script.js",
+  "dependencies": {
+    "typescript": "^4.1.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
